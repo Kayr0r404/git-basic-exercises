@@ -1,0 +1,1000 @@
+ 1104  fab -f 100-clean_web_static.py do_clean
+ 1105  ls
+ 1106  clear
+ 1107  python3
+ 1108  fab -f 100-clean_web_static.py do_clean
+ 1109  echo /bin/bash
+ 1110  cd alx-low_level_programming/0x1E-search_algorithms/
+ 1111  vim search_algos.h 
+ 1112  betty search_algos.h 
+ 1113  clear
+ 1114  betty 1-binary.c 
+ 1115  clear
+ 1116  vim 0-linear.c 
+ 1117  betty 1-binary.c 
+ 1118  betty 0-linear.c 
+ 1119  clear
+ 1120  betty 0-linear.c 
+ 1121  vim 0-linear.c 
+ 1122  betty 0-linear.c 
+ 1123  cc -Wall -Wextra -Werror -pedantic -std=gnu89 0-main.c 0-linear.c -o 0-linear
+ 1124  wilfried@0x1E-search_algorithms$ ./0-linear 
+ 1125  clear
+ 1126  cc -Wall -Wextra -Werror -pedantic -std=gnu89 0-main.c 0-linear.c -o 0-linear
+ 1127  ./0-linear 
+ 1128  cc -Wall -Wextra -Werror -pedantic -std=gnu89 0-main.c 0-linear.c -o 0-linear
+ 1129  ./0-linear 
+ 1130  vim 0-linear
+ 1131  vim 0-linear.c 
+ 1132  ./0-linear 
+ 1133  betty 0-linear.c 
+ 1134  cc -Wall -Wextra -Werror -pedantic -std=gnu89 0-main.c 0-linear.c -o 0-linear
+ 1135  ./0-linear 
+ 1136  clear
+ 1137  ./0-linear 
+ 1138  betty 0-linear.c 
+ 1139  clear
+ 1140  git add 0-linear.c search_algos.h 
+ 1141  git commit -m "linear search"
+ 1142  git push origin main
+ 1143  clear
+ 1144  echo '# 0x1E-search_algorithms' > README.md
+ 1145  git add README.md 
+ 1146  git commit -m "readme file"
+ 1147  git push origin main
+ 1148  betty 1-binary.c 
+ 1149  gcc -Wall -Wextra -Werror -pedantic -std=gnu89 1-main.c 1-binary.c -o 1-binary
+ 1150  ./
+ 1151  ./1-binary 
+ 1152  gcc -Wall -Wextra -Werror -pedantic -std=gnu89 1-main.c 1-binary.c -o 1-binary
+ 1153  ./1-binary 
+ 1154  gcc -Wall -Wextra -Werror -pedantic -std=gnu89 1-main.c 1-binary.c -o 1-binary
+ 1155  ./1-binary 
+ 1156  gcc -Wall -Wextra -Werror -pedantic -std=gnu89 1-main.c 1-binary.c -o 1-binary
+ 1157  w
+ 1158  gcc -Wall -Wextra -Werror -pedantic -std=gnu89 1-main.c 1-binary.c -o 1-binary
+ 1159  ./1-binary 
+ 1160  gcc -Wall -Wextra -Werror -pedantic -std=gnu89 1-main.c 1-binary.c -o 1-binary
+ 1161  ./1-binary 
+ 1162  gcc -Wall -Wextra -Werror -pedantic -std=gnu89 1-main.c 1-binary.c -o 1-binary
+ 1163  ./1-binary 
+ 1164  gcc -Wall -Wextra -Werror -pedantic -std=gnu89 1-main.c 1-binary.c -o 1-binary
+ 1165  ./1-binary 
+ 1166  clear
+ 1167  vim 1-binary
+ 1168  vim 1-binary.c 
+ 1169  betty 1-binary.c 
+ 1170  git add 1-binary.c 
+ 1171  git commit -m "binary search"
+ 1172  git push origin main
+ 1173  git add search_algos.h 
+ 1174  git commit -m 'search'
+ 1175  git push origin main
+ 1176  ./1-binary 
+ 1177  gcc -Wall -Wextra -Werror -pedantic -std=gnu89 1-main.c 1-binary.c -o 1-binary
+ 1178  ./1-binary 
+ 1179  gcc -Wall -Wextra -Werror -pedantic -std=gnu89 1-main.c 1-binary.c -o 1-binary
+ 1180  ./1-binary 
+ 1181  gcc -Wall -Wextra -Werror -pedantic -std=gnu89 1-main.c 1-binary.c -o 1-binary
+ 1182  ./1-binary 
+ 1183  gcc -Wall -Wextra -Werror -pedantic -std=gnu89 1-main.c 1-binary.c -o 1-binary
+ 1184  ./1-binary 
+ 1185  betty 1-binary.c 
+ 1186  vim 1-binary.c 
+ 1187  betty 1-binary.c 
+ 1188  git add 1-binary.c 
+ 1189  git commit -m 'binary search'
+ 1190  git push origin main
+ 1191  gcc -Wall -Wextra -Werror -pedantic -std=gnu89 1-main.c 1-binary.c -o 1-binary
+ 1192  ./1-binary 
+ 1193  gcc -Wall -Wextra -Werror -pedantic -std=gnu89 1-main.c 1-binary.c -o 1-binary
+ 1194  ./1-binary 
+ 1195  git add 1-binary.c 
+ 1196  git commit -m 'binary search'
+ 1197  git push origin main
+ 1198  ssh ubuntu@54.144.249.182
+ 1199  sudo apt autoremove code
+ 1200  ssh ubuntu@54.144.249.182
+ 1201  man dig
+ 1202  dig karabomahare.tech
+ 1203  dig www.karabomahare.tech
+ 1204  dig 
+ 1205  dig karabomahare.tech
+ 1206  dig 	karabomahlare.tech
+ 1207  dig karabomahlare.tech
+ 1208  ssh ubuntu@54.236.50.4
+ 1209  echo /bin/bash
+ 1210  cd AirBnB_clone_v2/
+ 1211  python3 -m web_flask.3-python_route
+ 1212  ssh ubuntu@54.144.249.182
+ 1213  cd ALX/AirBnB_clone_v2/
+ 1214  mkdir web_flask/templates
+ 1215  touch web_flask/templates/5-number.html
+ 1216  touch web_flask/templates/6-number_odd_or_even.html
+ 1217  touch web_flask/templates/7-states_list.html
+ 1218  touch web_flask/templates/8-cities_by_states.html
+ 1219  touch web_flask/templates/9-states.html
+ 1220  touch web_flask/templates/10-hbnb_filters.html
+ 1221  touch web_flask/10-hbnb_filters.py
+ 1222  touch web_flask/9-states.py
+ 1223  touch web_flask/8-cities_by_states.py
+ 1224  touch web_flask/7-states_list.py
+ 1225  export FLASK_
+ 1226  python3 -m web_flask.5-number_template
+ 1227  flake8 web_flask/5-number_template.py 
+ 1228  git add web_flask/5-number_template.py 
+ 1229  git commit -m "render html page"
+ 1230  git push origin master
+ 1231  git add web_flask/templates/5-number.html 
+ 1232  git commit -m "templates"
+ 1233  git push origin master
+ 1234  curl 0.0.0.0:5000/number_template/8.9
+ 1235  curl 0.0.0.0:5000/number_template/8
+ 1236  echo /bin/bash
+ 1237  cd AirBnB_clone_v2/
+ 1238  python3 -m web_flask.3-python_route
+ 1239  pycodestyle web_flask/3-python_route.py 
+ 1240  git add web_flask/3-python_route.py 
+ 1241  git commit -m "py is cool'
+ 1242  git commit -m "py is cool"
+ 1243  git push origin master
+ 1244  clear
+ 1245  flake8 web_flask/3-python_route.py 
+ 1246  touch web_flask/4-number_route.py web_flask/5-number_template.py
+ 1247  cp web_flask/3-python_route.py  web_flask/4-number_route.py 
+ 1248  clear
+ 1249  flake8 web_flask/4-number_route.py 
+ 1250  python3 -m web_flask.4-number-route
+ 1251  python3 -m web_flask.4-number_route
+ 1252  flake8 web_flask/4-number_route.py 
+ 1253  git add web_flask/4-number_route.py 
+ 1254  git commit -m "is number'
+ 1255  git commit -m "is number'"
+ 1256  git push origin master
+ 1257  rm -rf ../AirBnB_clone_1
+ 1258  python3 -m web_flask.5-number_template
+ 1259  python3 -m web_flask.4-number_route
+ 1260  python3 -m web_flask.5-number_template
+ 1261  python3 -m web_flask.5-number_templatew
+ 1262  python3 -m web_flask.5-number_template
+ 1263  python3 -m web_flask.5-number_templatew
+ 1264  python3 -m web_flask.5-number_template
+ 1265  cp web_flask/4-number_route.py web_flask/5-number_template.py 
+ 1266  python3 -m web_flask.5-number_template
+ 1267  cd AirBnB_clone
+ 1268  cd AirBnB_clone_v2
+ 1269  cd ../AirBnB_clone_v2/
+ 1270  ./console.py 
+ 1271  mv onsole.py console.py 
+ 1272  clear
+ 1273  ./console.py 
+ 1274  clear
+ 1275  ./console.py 
+ 1276  clear
+ 1277  ./console.py 
+ 1278  python3 -m venv venv
+ 1279  ls
+ 1280  apt install python3.10-venv
+ 1281  sudo apt install python3.10-venv
+ 1282  python3 -m venv venv
+ 1283  source venv/bin/activate
+ 1284  ./console.py 
+ 1285  ls
+ 1286  ls myenv/
+ 1287  rm -rf myenv/ venv/
+ 1288  ls
+ 1289  cd AirBnB_clone_v2/
+ 1290  python3 -m web_flask.5-number_template
+ 1291  cp web_flask/5-number_template.py web_flask/6-number_odd_or_even.py
+ 1292  cp web_flask/templates/5-number.html web_flask/templates/6-number_odd_or_even.html 
+ 1293  python3 -m web_flask.6-number_odd_or_even
+ 1294  flake8 web_flask/6-number_odd_or_even.py 
+ 1295  git add web_flask/6-number_odd_or_even.py 
+ 1296  git commit -m "if else in templates"
+ 1297  git push origin master
+ 1298  git add web_flask/templates/6-number_odd_or_even.html 
+ 1299  git commit -m "temp"
+ 1300  git push origin master
+ 1301  git add web_flask/5-number_template.py 
+ 1302  git commit -m "if in templates"
+ 1303  git add web_flask/5-number_template.py 
+ 1304  git commit -m "if in templates"
+ 1305  git add web_flask/templates/5-number.html 
+ 1306  git commit -m "template"
+ 1307  git push origin main
+ 1308  git pull origin master
+ 1309  git push origin master
+ 1310  python3 -m web_flask.5-number_template
+ 1311  git pull origin master
+ 1312  git commit -m "staged"
+ 1313  git pull origin master
+ 1314  python3 -m web_flask.5-number_template
+ 1315  git pull origin master
+ 1316  echo 'INSERT INTO `states` VALUES ("421a55f1-7d82-45d9-b54c-a76916479545","2017-03-25 19:42:40","2017-03-25 19:42:40","Alabama");' | mysql -uroot -p hbnb_dev_db
+ 1317  sudo mysql -uroot
+ 1318  clear
+ 1319  flake8 models/engine/file_storage.py 
+ 1320  flake8 models/engine/db_storage.py 
+ 1321  flake8 models/engine/db_storage.py w
+ 1322  flake8 models/engine/db_storage.py 
+ 1323  git add models/engine/file_storage.py models/engine/db_storage.py 
+ 1324  git commit -m "engine updated"
+ 1325  git push origin master
+ 1326  git add models/engine/file_storage.py models/engine/db_storage.py 
+ 1327  git commit -m "engine updated"
+ 1328  git push origin master
+ 1329  ./console.py 
+ 1330  clear
+ 1331  ./console.py 
+ 1332  rm file.json ; HBNB_TYPE_STORAGE=fs ./main.py
+ 1333  ls
+ 1334  chmod +x main.py 
+ 1335  ./main.py 
+ 1336  clear
+ 1337  ./main.py 
+ 1338  cd ../AirBnB_clone
+ 1339  ./console.py 
+ 1340  git pull origin master
+ 1341  git branch
+ 1342  ./console.py 
+ 1343  clear
+ 1344  git push console.py models/base_model.py
+ 1345  git add console.py models/base_model.py
+ 1346  git commit -m 'update console and base'
+ 1347  git oush origin master
+ 1348  git push origin master
+ 1349  git add console.py models/base_model.py
+ 1350  git commit -m 'update console and base'
+ 1351  git push origin master
+ 1352  git add console.py models/base_model.py
+ 1353  git commit -m 'update console and base'
+ 1354  git push origin master
+ 1355  cd ../AirBnB_clone_v2/
+ 1356  mv console.py onsole.py 
+ 1357  cp ../AirBnB_clone/console.py console.py
+ 1358  ./console.py 
+ 1359  clear
+ 1360  chmod +x console.py 
+ 1361  ./console.py 
+ 1362  ls
+ 1363  ./console.py 
+ 1364  python3 -m venv venv
+ 1365  source venv/bin/activate
+ 1366  cd 
+ 1367  lll
+ 1368  cd ALX/AirBnB_clone_v2/
+ 1369  sudo apt-get install libmysqlclient-dev
+ 1370  pip install mysqlclient
+ 1371  ./console.py 
+ 1372  clear
+ 1373  ./console.py 
+ 1374  ls
+ 1375  cp console.py onsole.py 
+ 1376  cp ../AirBnB_clone/console.py console.py 
+ 1377  ./console.py 
+ 1378  mv onsole.py console.py 
+ 1379  ./console.py 
+ 1380  State.update("9a5a0a8a5a901-4025-92c7-0332661c3a0288", {'first_name': "John", "age": 89})
+ 1381  ./console.py 
+ 1382  clear
+ 1383  cp onsole.py console.py 
+ 1384  ./console.py 
+ 1385  cat file.json 
+ 1386  rm file.json 
+ 1387  ./console.py 
+ 1388  cat file.json 
+ 1389  cd AirBnB_clone_v2/
+ 1390  clear
+ 1391  ./console.py 
+ 1392  echo 'create City state_id="95a5abab-aa65-4861-9bc6-1da4a36069aa" name="San_Francisco"' | HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db ./console.py
+ 1393  cat file.json 
+ 1394  ./console.py 
+ 1395  cat file.json 
+ 1396  ./console.py 
+ 1397  echo 'create City state_id="95a5abab-aa65-4861-9bc6-1da4a36069aa" name="San_Francisco"' | HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db ./console.py
+ 1398  cd AirBnB_clone_v2/
+ 1399  echo 'create City state_id="95a5abab-aa65-4861-9bc6-1da4a36069aa" name="San_Francisco"' | HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db ./console.py
+ 1400  suso mysql -uroot 
+ 1401  sudo mysql -uroot 
+ 1402  cd ALX/AirBnB_clone
+ 1403  ./console.py 
+ 1404  rm file.json 
+ 1405  ./console.py 
+ 1406  ./code
+ 1407  ./console.py 
+ 1408  ./../AirBnB_clone_v2/console.py 
+ 1409  ls ../AirBnB_clone_v2/
+ 1410  cp ../AirBnB_clone_v2/console.py ../AirBnB_clone_v2/onsole.py 
+ 1411  ls ../AirBnB_clone_v2/
+ 1412  cp console.py ../AirBnB_clone_v2/console.py 
+ 1413  ./../AirBnB_clone_v2/console.py 
+ 1414  sudo mysql -uroot
+ 1415  cd ../AirBnB_clone_v2/
+ 1416  echo 'create State name="California"' | HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db ./console.py
+ 1417  echo 'all State' | HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db ./console.py
+ 1418  echo 'SELECT * FROM states\G' | mysql -uhbnb_dev -p hbnb_dev_db
+ 1419  echo 'create City state_id="95a5abab-aa65-4861-9bc6-1da4a36069aa" name="San_Francisco"' | HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db ./console.py
+ 1420  ./console.py 
+ 1421  clear
+ 1422  ./console.py 
+ 1423  git clone git@github.com:TebogoLegoabe/AirBnB_clone_v2.git
+ 1424  cd AirBnB_clone_v2/
+ 1425  ./console.py 
+ 1426  cd ..
+ 1427  rm -rf AirBnB_clone_v2/
+ 1428  git clone git@github.com:Rd-Feng/AirBnB_clone_v2.git
+ 1429  cd AirBnB_clone_v2/
+ 1430  ./console.py 
+ 1431  cd ALX/AirBnB_clone_v2/AirBnB_clone_v2/
+ 1432  ./console.py 
+ 1433  cd AirBnB_clone_v2/
+ 1434  cat setup_mysql_dev.sql | sudo mysql -uroot
+ 1435  sudo mysql -uroot
+ 1436  git add console.py models/
+ 1437  git commit -m 'updated v2'
+ 1438  git push origin master
+ 1439  cat setup_mysql_dev.sql 
+ 1440  cat setup_mysql_dev.sql | sudo mysql -uroot
+ 1441  clear
+ 1442  ./console.py 
+ 1443  clear
+ 1444  cho 'create City state_id="95a5abab-aa65-4861-9bc6-1da4a36069aa" name="San_Jose"' | HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db ./console.py
+ 1445  echo 'create City state_id="95a5abab-aa65-4861-9bc6-1da4a36069aa" name="San_Jose"' | HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db ./console.py
+ 1446  echo 'create State name="California"' | HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db ./console.py
+ 1447  echo 'all State' | HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db ./console.py
+ 1448  echo 'create City state_id="17125e77-6263-435b-973f-f6beeafbe904" name="San_Francisco"' | HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db ./console.py
+ 1449  echo 'all City' | HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db ./console.py 
+ 1450  echo 'create City state_id="17125e77-6263-435b-973f-f6beeafbe904" name="San_Jose"' | HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db ./console.py
+ 1451  echo 'SELECT * FROM cities\G' | mysql -uhbnb_dev -p hbnb_dev_db
+ 1452  echo 'create State name="Alabama"' | HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db ./console.py
+ 1453  echo 'create State name="Arizona"' | HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db ./console.py
+ 1454  'create City state_id="922e2640-b0bb-4b4d-88c5-d17a6cf573c8" name="San_Francisco"' | HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db ./console.py
+ 1455  'create City state_id="23b806c3-3912-4992-831c-b4fd3af92516" name="Tempe"' | HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db ./console.py
+ 1456  'create City state_id="922e2640-b0bb-4b4d-88c5-d17a6cf573c8" name="Akron"' | HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db ./console.py
+ 1457  echo 'SELECT * FROM cities\G' | mysql -uhbnb_dev -p hbnb_dev_db
+ 1458  echo 'SELECT * FROM states\G' | mysql -uhbnb_dev -p hbnb_dev_db
+ 1459  cat setup_mysql_dev.sql | sudo mysql -uroot
+ 1460  echo 'SELECT * FROM states\G' | mysql -uhbnb_dev -p hbnb_dev_db
+ 1461  echo 'create State name="Alabama"' | HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db ./console.py
+ 1462  echo 'create State name="Carlifonia"' | HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db ./console.py
+ 1463  echo 'create State name="Arizona"' | HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db ./console.py
+ 1464  clear
+ 1465  echo 'create City state_id="9a264e79-58af-4da8-8019-8bdd8a3c2cda" name="San_Jose"' | HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db ./console.py
+ 1466  echo 'create City state_id="9a264e79-58af-4da8-8019-8bdd8a3c2cda" name="San_Fransico"' | HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db ./console.py
+ 1467  echo 'create City state_id="54f7c094-ede1-4328-b39d-bb2e17c4fdfb
+ 1468  " name="Akron"' | HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db ./console.py
+ 1469  echo 'create City state_id="54f7c094-ede1-4328-b39d-bb2e17c4fdfb" name="Akron"' | HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db ./console.py
+ 1470  echo 'create City state_id="ee67a36e-9657-4959-b740-cc6b9deb7a13" name="Tempe"' | HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db ./console.py
+ 1471  echo 'all' | HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db ./console.py
+ 1472  echo 'all City' | HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db ./console.py
+ 1473  echo 'all State' | HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db ./console.py
+ 1474  echo 'all' | HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db ./console.py
+ 1475  echo 'all State' | HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db ./console.py
+ 1476  ./console.py 
+ 1477  /bin/python3 /home/kay3rr0r404/ALX/AirBnB_clone_v2/play.py
+ 1478  cd AirBnB_clone_v2/
+ 1479  cat 7-dump.sql | sudo mysql -uroot
+ 1480  echo 'select * from cities.hbnb_dev_db;' | sudo mysql -uroot
+ 1481  echo 'select * from hbnb_dev_db.cities;' | sudo mysql -uroot
+ 1482  echo 'select * from hbnb_dev_db.states;' | sudo mysql -uroot
+ 1483  sudo mysql -uroot
+ 1484  /bin/python3 /home/kay3rr0r404/ALX/AirBnB_clone_v2/play.py
+ 1485  sudo mysql -uroot
+ 1486  /bin/python3 /home/kay3rr0r404/ALX/AirBnB_clone_v2/play.py
+ 1487  python3
+ 1488  /bin/python3 /home/kay3rr0r404/ALX/AirBnB_clone_v2/play.py
+ 1489  python3
+ 1490  clear
+ 1491  /bin/python3 /home/kay3rr0r404/ALX/AirBnB_clone_v2/play.py
+ 1492  echo /bin/bash
+ 1493  cd AirBnB_clone_v2/
+ 1494  rm file.json ; HBNB_TYPE_STORAGE=fs ./main.py
+ 1495  ls
+ 1496  ./console.py 
+ 1497  ls
+ 1498  echo 'create State name="Arizona"' |./console.py
+ 1499  cat fil
+ 1500  ls
+ 1501  ./console.py 
+ 1502  echo 'all' | ./console.py 
+ 1503  echo 'all state' | ./console.py 
+ 1504  echo 'all State' | ./console.py 
+ 1505  rm file.json ; HBNB_TYPE_STORAGE=fs ./main.py
+ 1506  HBNB_TYPE_STORAGE=fs ./main.py
+ 1507  rm file.json ; HBNB_TYPE_STORAGE=fs ./main.py
+ 1508  clear
+ 1509  rm file.json ; HBNB_TYPE_STORAGE=fs ./main.py
+ 1510  curl -o 7-dump.sql "https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/290/7-states_list.sql"
+ 1511  ls
+ 1512  clear
+ 1513  touch web_flask/8-cities_by_states.py
+ 1514  echo 'all States' | ./console.py 
+ 1515  echo 'all states' | ./console.py 
+ 1516  echo 'all State' | ./console.py 
+ 1517  echo 'all City' | ./console.py 
+ 1518  /bin/python3 /home/kay3rr0r404/ALX/alx-system_engineering-devops/0x15-api/0-gather_data_from_an_API.py
+ 1519  cd -
+ 1520  cd alx-system_engineering-devops/0x15-api/
+ 1521  python3 0-gather_data_from_an_API.py 2
+ 1522  python3 0-gather_data_from_an_API.py 4
+ 1523  python3 0-gather_data_from_an_API.py 8
+ 1524  flake8 0-gather_data_from_an_API.py 
+ 1525  flake8 0-gather_data_from_an_API.py w
+ 1526  flake8 0-gather_data_from_an_API.py 
+ 1527  flake8 0-gather_data_from_an_API.py w
+ 1528  flake8 0-gather_data_from_an_API.py 
+ 1529  pycodestyle 0-gather_data_from_an_API.py 
+ 1530  chmod +x 0-gather_data_from_an_API.py 
+ 1531  python3 0-gather_data_from_an_API.py 8
+ 1532  git add 0-gather_data_from_an_API.py README.md 
+ 1533  git commit -m "get data"
+ 1534  git push origin main
+ 1535  python3 -c 'print(__import__("0-gather_data_from_an_API").__doc__)'
+ 1536  python3 -c 'print(__import__("0-gather_data_from_an_API").__doc__)' 2
+ 1537  git add 0-gather_data_from_an_API.py README.md 
+ 1538  git commit -m "get data"
+ 1539  git push origin main
+ 1540  python3 0-gather_data_from_an_API.py 8
+ 1541  git add 0-gather_data_from_an_API.py README.md 
+ 1542  git commit -m "get data"
+ 1543  git push origin main
+ 1544  git add 0-gather_data_from_an_API.py README.md 
+ 1545  python3 0-gather_data_from_an_API.py 2
+ 1546  pycodestyle 0-gather_data_from_an_API.py 
+ 1547  git add 0-gather_data_from_an_API.py 
+ 1548  git commit -m "compliant"
+ 1549  git push origin main
+ 1550  cp 0-gather_data_from_an_API.py  1-export_to_CSV.py
+ 1551  python3 1-export_to_CSV.py 2
+ 1552  cat 2.csv 
+ 1553  chmod +x 1-export_to_CSV.py 
+ 1554  git add 1-export_to_CSV.py 
+ 1555  git commit -m "data to csv"
+ 1556  git pushorigin main
+ 1557  git push origin main
+ 1558  cp 1-export_to_CSV.py 2-export_to_JSON.py\
+ 1559  cp 1-export_to_CSV.py 2-export_to_JSON.py
+ 1560  ls
+ 1561  python3 2-export_to_JSON.py 
+ 1562  python3 2-export_to_JSON.py 2
+ 1563  cat 2-json
+ 1564  cat 2.json
+ 1565  chmod +x 2-export_to_JSON.py 
+ 1566  git add 2-export_to_JSON.py 
+ 1567  git commit -m "export to json "
+ 1568  git push origin main
+ 1569  cp 2-export_to_JSON.py 3-dictionary_of_list_of_dictionaries.py
+ 1570  python3 3-dictionary_of_list_of_dictionaries.py 
+ 1571  pycodestyle 1-export_to_CSV.py 
+ 1572  pycodestyle 2-export_to_JSON.py 
+ 1573  git add 1-export_to_CSV.py 2-export_to_JSON.py 
+ 1574  git commit -m "flake compliant"
+ 1575  git push origin main
+ 1576  python3 3-dictionary_of_list_of_dictionaries.py 
+ 1577  pycodestyle 3-dictionary_of_list_of_dictionaries.py 
+ 1578  git add 3-dictionary_of_list_of_dictionaries.py 
+ 1579  git commit -m "all"
+ 1580  git push origin main
+ 1581  cat 1-export_to_CSV.py 
+ 1582  cat 1.json 
+ 1583  ls
+ 1584  rm *.json
+ 1585  ls
+ 1586  cat 2.csv 
+ 1587  ls
+ 1588  flake8 3-dictionary_of_list_of_dictionaries.py 
+ 1589  python3 1-export_to_CSV.py 
+ 1590  python3 1-export_to_CSV.py 2
+ 1591  cat 2.csv 
+ 1592  python3 3-dictionary_of_list_of_dictionaries.py 
+ 1593  cat todo_all_employees.json 
+ 1594  git add 1-export_to_CSV.py 3-dictionary_of_list_of_dictionaries.py 
+ 1595  flake8 1-export_to_CSV.py 
+ 1596  git add 1-export_to_CSV.py 3-dictionary_of_list_of_dictionaries.py 
+ 1597  git commit -m "flake compliant"
+ 1598  git push origin main
+ 1599  python3 1-export_to_CSV.py 
+ 1600  python3 1-export_to_CSV.py 2
+ 1601  cat 2.csv 
+ 1602  python3 1-export_to_CSV.py 2
+ 1603  cat 2.csv 
+ 1604  python3 1-export_to_CSV.py 2
+ 1605  cat 2.csv 
+ 1606  python3 1-export_to_CSV.py 2
+ 1607  cat 2.csv 
+ 1608  python3 1-export_to_CSV.py 2
+ 1609  cat 2.csv 
+ 1610  git add 1-export_to_CSV.py 
+ 1611  git commit -m 'QUOTE_ALL'
+ 1612  git push origin main
+ 1613  echo /bin/bash
+ 1614  curl 0.0.0.0:5000/states_list ; echo ""
+ 1615  cd ALX/AirBnB_clone_v2/
+ 1616  rm file.json ; HBNB_TYPE_STORAGE=fs ./main.py
+ 1617  cd alx-higher_level_programming/0x14-javascript-web_scraping/
+ 1618  echo 'C is super fun!' > cisfun
+ 1619  cat cisfun 
+ 1620  ./0-readme.js cisfun
+ 1621  chmod +x 0-readme.js 
+ 1622  ./0-readme.js cisfun
+ 1623  semistandard 0-readme.js 
+ 1624  semistandard -fix 0-readme.js 
+ 1625  msn semistandard 
+ 1626  man semistandard 
+ 1627  semistandard --fix 0-readme.js 
+ 1628  semistandard 0-readme.js 
+ 1629  git add 0-readme.js 
+ 1630  git commit -m "node "
+ 1631  git push origin main
+ 1632  ./0-readme.js doesntexist
+ 1633  git add README.md 
+ 1634  git commit -m 'read me'
+ 1635  git push origin main
+ 1636  cp 0-readme.js 1-writeme.js
+ 1637  chmod +x 1-writeme.js 
+ 1638  semistandard --fix 1-writeme.js 
+ 1639  semistandard 1-writeme.js 
+ 1640  ./1-writeme.js my_file.txt "Python is cool"
+ 1641  ./1-writeme.js my_file.txt 
+ 1642  ./1-writeme.js my_file.txt "Python is cool"
+ 1643  touch my_file.txt
+ 1644  ./1-writeme.js my_file.txt "Python is cool"
+ 1645  ./1-writeme.js my_file.txt 
+ 1646  cat my_file.txt 
+ 1647  node writeFile.js path/to/your/file.txt "Hello, this is the content to be written."
+ 1648  node writeFil "Hello, this is the content to be written."
+ 1649  node writeFile.js my_file.txt "Hello, this is the content to be written."
+ 1650  node 1-writeme.js my_file.txt "Hello, this is the content to be written."
+ 1651  ./1-writeme.js my_file.txt "Python is cool"
+ 1652  touch my_file.txt 
+ 1653  cat my_file.txt 
+ 1654  ./1-writeme.js my_file.txt "Python is cool"
+ 1655  ./1-writeme.js my_fil.txt "Python is cool"
+ 1656  node 1-writeme.js y_file.txt "Hello, this is the content to be written."
+ 1657  cat y_file.txt 
+ 1658  rm my_file.txt y_file.txt 
+ 1659  ./1-writeme.js my_fil.txt "Python is cool"
+ 1660  git add 1-writeme.js 
+ 1661  git commit -m "write to a file"
+ 1662  git push origin main
+ 1663  ./1-writeme.js my_fil.txt "Python is cool"
+ 1664  git add 1-writeme.js 
+ 1665  git commit -m "write to a file"
+ 1666  git push origin main
+ 1667  cat my_file.txt ; echo ""
+ 1668  ./1-writeme.js my_file.txt "Python is cool"
+ 1669  cat my_file.txt ; echo ""
+ 1670  rm my_file.txt my_fil.txt 
+ 1671  ./1-writeme.js my_file.txt "Python is cool"
+ 1672  cat my_file.txt ; echo ""
+ 1673  cat my_file.txt 
+ 1674  cat my_file.txt ; echo ""
+ 1675  cat my_file.txt 
+ 1676  ./1-writeme.js my_file.txt "Python is cool"
+ 1677  semistandard --fix 1-writeme.js 
+ 1678  git add 1-writeme.js 
+ 1679  chmod +x 1-writeme.js 
+ 1680  git add 1-writeme.js 
+ 1681  git commit -m "write to a file"
+ 1682  git push origin main
+ 1683  sudo npm install request --global
+ 1684  touch 2-statuscode.js
+ 1685  touch 3-starwars_title.js 4-starwars_count.js 5-request_store.js 6-completed_tasks.js 100-starwars_characters.js 101-starwars_characters.js
+ 1686  2tochmod +x 2-statuscode.js 3-starwars_title.js 4-starwars_count.js 5-request_store.js 6-completed_tasks.js 100-starwars_characters.js 101-starwars_characters.js
+ 1687  chmod +x 2-statuscode.js 3-starwars_title.js 4-starwars_count.js 5-request_store.js 6-completed_tasks.js 100-starwars_characters.js 101-starwars_characters.js
+ 1688  add 1-writeme.js 2-statuscode.js 3-starwars_title.js 4-starwars_count.js 6-completed_tasks.js 5-request_store.js 100-starwars_characters.js 101-starwars_characters.js README.md 
+ 1689  git add 1-writeme.js 2-statuscode.js 3-starwars_title.js 4-starwars_count.js 6-completed_tasks.js 5-request_store.js 100-starwars_characters.js 101-starwars_characters.js README.md 
+ 1690  git commit -m 'complete proj'
+ 1691  git push origin main
+ 1692  semistandard --fix  1-writeme.js 2-statuscode.js 3-starwars_title.js 4-starwars_count.js 6-completed_tasks.js 5-request_store.js 100-starwars_characters.js 101-starwars_characters.js
+ 1693  semistandard 4-starwars_count.js 
+ 1694  git add 1-writeme.js 2-statuscode.js 3-starwars_title.js 4-starwars_count.js 6-completed_tasks.js 5-request_store.js 100-starwars_characters.js 101-starwars_characters.js README.md 
+ 1695  git commit -m 'semistabdard compliant'
+ 1696  git push origin main
+ 1697  cd ../../AirBnB_clone_v2/
+ 1698  rm file.json ; ./main.py 
+ 1699  rm file.json ; HBNB_TYPE_STORAGE=fs ./main.py
+ 1700  clear
+ 1701  rm file.json ; HBNB_TYPE_STORAGE=fs ./main.py
+ 1702  rm file.json ; HBNB_TYPE_STORAGE=db ./main.py
+ 1703  rm file.json ; HBNB_TYPE_STORAGE=fs ./main.py
+ 1704  rm file.json ; HBNB_TYPE_STORAGE=db ./main.py
+ 1705  rm file.json ; HBNB_TYPE_STORAGE=fs ./main.py
+ 1706  rm file.json ; HBNB_TYPE_STORAGE=db ./main.py
+ 1707  rm file.json ; HBNB_TYPE_STORAGE=fs ./main.py
+ 1708  clear 
+ 1709  pycodestyle models/base_model.py 
+ 1710  pycodestyle models/*.py
+ 1711  pycodestyle models/engine/*.py
+ 1712  pycodestyle console.py
+ 1713  git add models/engine/file_storage.py 
+ 1714  git add models/engine/*.py 
+ 1715  git add models/engine/*.py models/*.py console.py 
+ 1716  git push origin master
+ 1717  git commit -m "pass"
+ 1718  git push origin master
+ 1719  HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db python3 -m web_flask.7-states_list
+ 1720  rm file.json ; HBNB_TYPE_STORAGE=fs ./main.py
+ 1721  echo /bin/bash
+ 1722  curl -sI 35.231.193.217/airbnb-onepage/
+ 1723  ssh ubuntu@100.25.136.187
+ 1724  ssh ubuntu@100.25.136.187
+ 1725  echo /bin/bash
+ 1726  curl 100.25.136.187/airbnb-dynamic/number_odd_or_even/6
+ 1727  ssh ubuntu@100.25.136.187
+ 1728  curl 100.25.136.187/airbnb-dynamic/number_odd_or_even/6
+ 1729  curl web-01.karabomahlare.tech/airbnb-onepage
+ 1730  curl web-01.karabomahlare.tech:5000/airbnb-onepage
+ 1731  curl web-01.karabomahlare.tech/airbnb-onepage
+ 1732  curl web-01.karabomahlare.tech/airbnb-onepage/
+ 1733  curl -sI 35.231.193.217/airbnb-onepage/
+ 1734  ssh ubuntu@100.25.136.187
+ 1735  curl -sI100.25.136.187/airbnb-onepage/
+ 1736  curl -sI 100.25.136.187/airbnb-onepage/
+ 1737  curl -sI 100.25.136.187:5000/airbnb-onepage/
+ 1738  curl -sI 100.25.136.187/airbnb-dynamic/number_odd_or_even/6
+ 1739  curl 100.25.136.187/airbnb-dynamic/number_odd_or_even/6
+ 1740  curl -sI 100.25.136.187:5000/airbnb-onepage/
+ 1741  curl -sI 100.25.136.187/airbnb-onepage/
+ 1742  curl -sI 100.25.136.187:5000/airbnb-onepage/
+ 1743  curl -sI 35.231.193.217/airbnb-onepage/
+ 1744  cd ALX/alx-system_engineering-devops/
+ 1745  mkdir 0x1A-application_server; cd 0x1A-application_server
+ 1746  echo ' # 0x1A-application_server' >README.md
+ 1747  ls
+ 1748  vim 2-app_server-nginx_config
+ 1749  git add 2-app_server-nginx_config 
+ 1750  git commit -m 'ngix confiq'
+ 1751  git push origin main
+ 1752  git add README.md 
+ 1753  git commit -m 'read me'
+ 1754  git push origin main
+ 1755  curl -sI 35.231.193.217/airbnb-onepage/
+ 1756  ssh ubuntu@100.25.136.187
+ 1757  ssh ubuntu@100.25.136.187w
+ 1758  ssh ubuntu@100.25.136.187
+ 1759  curl hostname
+ 1760  curl localhost
+ 1761  curl localhost:80
+ 1762  curl localhost:8080
+ 1763  curl localhost:808
+ 1764  curl localhost:80
+ 1765  curl localhost:8
+ 1766  curl localhost:20
+ 1767  curl localhost:22
+ 1768  curl localhost:5000
+ 1769  clear
+ 1770  tmux new-session -d 'gunicorn --bind 0.0.0.0:5000 web_flask.0-hello_route:app'
+ 1771  curl localhost:5000
+ 1772  pgrep gunicornpgrep gunicor
+ 1773  pgrep gunicorn
+ 1774  tmux new-session -d 'gunicorn --bind 0.0.0.0:5000 web_flask.0-hello_route:app'
+ 1775  pgrep gunicorn
+ 1776  sudo systemctl status gunicorn
+ 1777  ssh ubuntu@100.25.136.187
+ 1778  ssh ubuntu@54.236.50.4
+ 1779  ssh ubuntu@100.25.136.187
+ 1780  ssh ubuntu@54.160.122.184
+ 1781  ls -al ~/.ssh/id_*.pub
+ 1782  ssh-copy-ide ubuntu@54.160.122.184
+ 1783  ssh-copy-id ubuntu@54.160.122.184
+ 1784  ssh-add .ssh/id_rsa
+ 1785  ssh-add .ssh/
+ 1786  eval "$(ssh-agent)"
+ 1787  ssh-add ~/.ssh/id_rsa
+ 1788  ssh ubuntu@54.160.122.184
+ 1789  exit
+ 1790  sssh ubuntu@54.160.122.184
+ 1791  ssh ubuntu@54.160.122.184
+ 1792  eval $"(ssh-agent)"
+ 1793  ssh-add .ssh/id_rsa
+ 1794  eval "$(ssh-agent)"
+ 1795  ssh-add .ssh/id_rsa
+ 1796  cat /etc/ssh/ssh_config
+ 1797  sudo vim /etc/ssh/ssh_config
+ 1798  exit
+ 1799  hostname
+ 1800  ip
+ 1801  man ip
+ 1802  ip -h
+ 1803  ip addr show
+ 1804  ip addr show eth0 | grep -oP 'inet \K[\d.]+'
+ 1805  hostname
+ 1806  curl -sI web-01 | grep X-Served-By
+ 1807  curl web-01
+ 1808  curl -sI 34.229.255.239 | grep X-served-by
+ 1809  curl -sI 34.229.255.239 | grep X-Served-By
+ 1810  ssh web-01
+ 1811  telnet 5000
+ 1812  ssh web-01
+ 1813  ssh web-02
+ 1814  ssh web-01
+ 1815  curl http://web-01.karabomahlare.tech:5000/airbnb_onepage/
+ 1816  ssh web-01
+ 1817  cd ALX/AirBnB_clone_v4
+ 1818  git pull origin master
+ 1819  clear
+ 1820  ssh web-01
+ 1821  ls
+ 1822  ssh web-01
+ 1823  clear
+ 1824  ssh web-01
+ 1825  clear
+ 1826  ssh web-01
+ 1827  echo /bin/bash
+ 1828  ssh web-01
+ 1829  cd alx-system_engineering-devops/
+ 1830  ls
+ 1831  cd 0x1A-application_server/
+ 1832  ls
+ 1833  cp 3-app_server-nginx_config 5-app_server-nginx_config
+ 1834  git add 5-app_server-nginx_config 
+ 1835  git commit -m 'nginx config'
+ 1836  git push origin main
+ 1837  ssh web-02
+ 1838  clear
+ 1839  ssh web-02
+ 1840  sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf
+ 1841  ssh web-02
+ 1842  echo /bin/bash
+ 1843  npm run test
+ 1844  Create React App
+ 1845  npx create-react-app index
+ 1846  culr localhost:5500
+ 1847  ls
+ 1848  npx create-react-app index
+ 1849  ls
+ 1850  sudo npm install npm
+ 1851  npx create-react-app index
+ 1852  cd index/
+ 1853  npm run start
+ 1854  cd ..
+ 1855  export FLASK_APP=index
+ 1856  export FLASK_ENV=development
+ 1857  flask run
+ 1858  export FLASK_APP=index
+ 1859  falsk run
+ 1860  flask run
+ 1861  clear
+ 1862  ls
+ 1863  export FLASK_APP=index
+ 1864  export FLASK_ENV=development
+ 1865  flask run
+ 1866  cd Kayr0r404.github.io/
+ 1867  export FLASK_APP=index
+ 1868  export FLASK_ENV=development
+ 1869  run flask
+ 1870  flask run
+ 1871  npm -version
+ 1872  yarn -version
+ 1873  npm init -y
+ 1874  npm -v
+ 1875  mkdir alx-backend-javascript
+ 1876  cd alx-backend-javascript
+ 1877  touch package.json babel.config.js .eslintrc.js
+ 1878  npm install
+ 1879  npm audit fix
+ 1880  npm audit fix --force
+ 1881  mkdir 0x00-ES6_basic
+ 1882  cd 0x00-ES6_basic
+ 1883  touch 0-constants.js
+ 1884  mv ../.eslintrc.js ./0-constants.js 
+ 1885  mv ../package.json ./
+ 1886  mv ../babel.config.js ../
+ 1887  mv ../babel.config.js ./
+ 1888  npm install
+ 1889  mv ../.eslintrc.js ./0-constants.js 
+ 1890  touch .eslintrc.js
+ 1891  npm install
+ 1892  touch 0-main.js
+ 1893  npm run dev 0-main.js 
+ 1894  echo '# intro to ES6' > README.md
+ 1895  git add README.md 0-constants.js 
+ 1896  git commit -m 'firsdt task'
+ 1897  git push origin main
+ 1898  cd ..
+ 1899  ls
+ 1900  mv 0x00-ES6_basic/ ../
+ 1901  cd ..
+ 1902  ls
+ 1903  rm alx-backend-javascript/
+ 1904  rm -rf alx-backend-javascript/
+ 1905  git init
+ 1906  git add README.md
+ 1907  git commit -m "first commit"
+ 1908  git branch -M main
+ 1909  git remote add origin https://github.com/Kayr0r404/alx-backend-javascript.git
+ 1910  git push -u origin main
+ 1911  git clone git@ggithub.com:Kayr0r404/alx-backend-javascript.git
+ 1912  git clone git@github.com:Kayr0r404/alx-backend-javascript.git
+ 1913  cd alx-backend-javascript
+ 1914  ls
+ 1915  git init
+ 1916  git add README.md
+ 1917  git commit -m "first commit"
+ 1918  git branch -M main
+ 1919  git remote add origin https://github.com/Kayr0r404/alx-backend-javascript.git
+ 1920  git push -u origin main
+ 1921  ls ../
+ 1922  mv ../0x00-ES6_basic/ ./
+ 1923  ls
+ 1924  pwd
+ 1925  ls
+ 1926  mv 0x00-ES6_basic/ ../
+ 1927  ls
+ 1928  ls ../
+ 1929  mv ../0x00-ES6_basic/ ./
+ 1930  ls 
+ 1931  ls alx-backend-javascript/
+ 1932  mv alx-system_engineering-devops/ ../
+ 1933  mv -rf alx-system_engineering-devops/ ../
+ 1934  ls -a
+ 1935  echo '# Intro to ES6'
+ 1936  cd 0x00-ES6_basic/
+ 1937  echo '# Intro to ES6' > README.md
+ 1938  git add 0-constants.js README.md 
+ 1939  git commit -m 'first task'
+ 1940  git push origin main
+ 1941  touch 1-block-scoped.js 12-createReportObject.js 11-createEmployeesObject.js 10-loops.js 9-getFullBudget.js 8-getBudgetCurrentYear.js 7-getBudgetObject.js 6-string-interpolation.js 5-spread-operator.js 4-rest-parameter.js 3-default-parameter.js 2-arrow.js
+ 1942  git add 1-block-scoped.js 
+ 1943  git commit -m 'second task'
+ 1944  git push origin main
+ 1945  vim 1-main.js
+ 1946  npm run dev 1-main.js
+ 1947  vim 2-main.js
+ 1948  npm run dev 2-main.js
+ 1949  git add 2-arrow.js 
+ 1950  git commit -m 'arrow functions'
+ 1951  git push origin main
+ 1952  cd ../../
+ 1953  cd .
+ 1954  cd ..
+ 1955  mkdir Umuzi
+ 1956  cd Umuzi/
+ 1957  git clone git@github.com:Umuzi-org/Karabo-Mahlare-778-contentitem-.git
+ 1958  ls
+ 1959  cd Karabo-Mahlare-778-contentitem-/
+ 1960  ls
+ 1961  cat README.md 
+ 1962  cd ../ALX/
+ 1963  ls
+ 1964  git clone https://github.com/Kayr0r404/alx-interview.git
+ 1965  ls
+ 1966  cd alx-interview/
+ 1967  ls
+ 1968  clear
+ 1969  mkdir 0x00-pascal_triangle
+ 1970  cd 0x00-pascal_triangle/
+ 1971  touch 0-pascal_triangle.py
+ 1972  /bin/python3 /home/kay3rr0r404/ALX/alx-interview/0x00-pascal_triangle/0-main.py
+ 1973  cd alx-backend-javascript/
+ 1974  mkdir 0x02-ES6_classes
+ 1975  cd 0x02-ES6_classes
+ 1976  clear
+ 1977  touch 0-classroom.js
+ 1978  vim 0-main.js
+ 1979  npm run dev 0-main.js
+ 1980  cp ../0x00-ES6_basic/package.json ./
+ 1981  cp ../0x00-ES6_basic/.eslintrc.js ./
+ 1982  cp ../0x00-ES6_basic/babel.config.js ./
+ 1983  npm install
+ 1984  npm run dev 0-main.js
+ 1985  touch 1-make_classrooms.js
+ 1986  git add 0-classroom.js 
+ 1987  git commit-m 'class constructor'
+ 1988  git commit -m 'class constructor'
+ 1989  git push origin main
+ 1990  vim 1-main.js
+ 1991  cd alx-interview/
+ 1992  cd 0x00-pascal_triangle/
+ 1993  vim 0-main.py
+ 1994  python3 -m 0-main.py
+ 1995  python3 -m 0-main
+ 1996  cd Karabo-Mahlare-606-tilde-project-tutorial-how-repo-projects-work-/
+ 1997  ld
+ 1998  ls
+ 1999  git branch
+ 2000  git add important.md 
+ 2001  git commit -m 'updated as pr comments'
+ 2002  git push origin important-edits
+ 2003  cd ..
+ 2004  mkdir git-basic-exercises
+ 2005  cd git-basic-exercises
+ 2006  git init
+ 2007  git status
+ 2008  touch README.md
+ 2009  git log
+ 2010  git add README.md 
+ 2011  git commit -m 'initial commit'
+ 2012  git log
+ 2013  git checkout 1dbd9cc48fecf17ef6b64bb0a8a626d3ab7bfc53
+ 2014  ls
+ 2015  git checkout main
+ 2016  git checkout -b milkshake-flavours
+ 2017  nano milkshakes.md
+ 2018  git status
+ 2019  git add milkshakes.md 
+ 2020  git commit -m '"added initial flavours"'
+ 2021  git checkout main
+ 2022  git checkout history
+ 2023  git checkout -b history
+ 2024  git log
+ 2025  git checkoout main
+ 2026  git checkout main
+ 2027  ls
+ 2028  git log
+ 2029  git checkout milkshaske
+ 2030  git branch
+ 2031  git checkout milkshake-flavours
+ 2032  git log
+ 2033  git checkout history
+ 2034  gitlog
+ 2035  git log
+ 2036  history > history.txt
+ 2037  ls
+ 2038  cat history.txt 
+ 2039  history
+ 2040  clear
+ 2041  git add history.txt 
+ 2042  git commit -m "added history
+ 2043  git commit -m "added historyw"
+ 2044  git checkout milkshake-flavours 
+ 2045  ls
+ 2046  vim README.md 
+ 2047  git commit -m "random readme changes"
+ 2048  git add README.md 
+ 2049  git commit -m "random readme changes"
+ 2050  git checkout history 
+ 2051  cat README.md 
+ 2052  rm README.md
+ 2053  echo "booya" > README.md
+ 2054  rm README.md
+ 2055  echo "booya" > README.md
+ 2056  cat README.md 
+ 2057  git add r
+ 2058  git add README.md 
+ 2059  git commit -m "rewrote readme"
+ 2060  git checkout main 
+ 2061  git merge milkshake-flavours 
+ 2062  git log
+ 2063  git merge history 
+ 2064  cd -
+ 2065  rm -fr 
+ 2066  rm -fr git-basic-exercises/
+ 2067  mkdir git-basic-exercises/
+ 2068  cd git-basic-exercises/
+ 2069  git init
+ 2070  git status
+ 2071  touch README.md
+ 2072  git status
+ 2073  git log
+ 2074  git add README.md 
+ 2075  git commit -m "initial commit"
+ 2076  git log
+ 2077  nano README.md 
+ 2078  vim README.md 
+ 2079  git add README.md 
+ 2080  git commit -m "second commit"
+ 2081  vim README.md 
+ 2082  git add README.md 
+ 2083  git commit -m 'third commit'
+ 2084  git log
+ 2085  git checkout b6fb4e8241b8549dbba96bbdc0f439a4d431e9ad
+ 2086  cat README.md 
+ 2087  git checkout main 
+ 2088  git branch milkshake-flavours
+ 2089  git branch
+ 2090  git branch history
+ 2091  git branch
+ 2092  git checkout milkshake-flavours 
+ 2093  nano milkshakes.md
+ 2094  git add milkshakes.md 
+ 2095  git commit -m "added initial flavours"
+ 2096  git log
+ 2097  git checkout main 
+ 2098  ls
+ 2099  git log
+ 2100  git checkout history 
+ 2101  git log
+ 2102  ls
+ 2103  history > history.txt
