@@ -1,3 +1,3 @@
 chocolate
 strawberry
-plain
+Vanilla
