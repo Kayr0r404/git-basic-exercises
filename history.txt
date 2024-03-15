@@ -1,3 +1,27 @@
+ 1080  cat l
+ 1081  fab -f 100-clean_web_static.py do_clean
+ 1082  ls
+ 1083  fab -f 100-clean_web_static.py do_clean
+ 1084  lsls
+ 1085  ls
+ 1086  fab -f 100-clean_web_static.py do_clean
+ 1087  cat versions/dir_contents 
+ 1088  fab -f 100-clean_web_static.py do_clean
+ 1089  cat versions/dir_contents 
+ 1090  fab -f 100-clean_web_static.py do_clean
+ 1091  ls
+ 1092  cat versions_contents 
+ 1093  rm versions/dir_contents 
+ 1094  fab -f 100-clean_web_static.py do_clean
+ 1095  rm versions/dir_contents 
+ 1096  fab -f 100-clean_web_static.py do_clean
+ 1097  clear
+ 1098  fab -f 100-clean_web_static.py do_clean
+ 1099  clear
+ 1100  fab -f 100-clean_web_static.py do_clean
+ 1101  python3
+ 1102  fab -f 100-clean_web_static.py do_clean
+ 1103  ls
  1104  fab -f 100-clean_web_static.py do_clean
  1105  ls
  1106  clear
@@ -890,111 +914,87 @@
  1993  vim 0-main.py
  1994  python3 -m 0-main.py
  1995  python3 -m 0-main
- 1996  cd Karabo-Mahlare-606-tilde-project-tutorial-how-repo-projects-work-/
- 1997  ld
- 1998  ls
- 1999  git branch
- 2000  git add important.md 
- 2001  git commit -m 'updated as pr comments'
- 2002  git push origin important-edits
- 2003  cd ..
- 2004  mkdir git-basic-exercises
- 2005  cd git-basic-exercises
- 2006  git init
- 2007  git status
- 2008  touch README.md
- 2009  git log
- 2010  git add README.md 
- 2011  git commit -m 'initial commit'
- 2012  git log
- 2013  git checkout 1dbd9cc48fecf17ef6b64bb0a8a626d3ab7bfc53
- 2014  ls
- 2015  git checkout main
- 2016  git checkout -b milkshake-flavours
- 2017  nano milkshakes.md
- 2018  git status
- 2019  git add milkshakes.md 
- 2020  git commit -m '"added initial flavours"'
- 2021  git checkout main
- 2022  git checkout history
- 2023  git checkout -b history
- 2024  git log
- 2025  git checkoout main
- 2026  git checkout main
- 2027  ls
- 2028  git log
- 2029  git checkout milkshaske
- 2030  git branch
- 2031  git checkout milkshake-flavours
- 2032  git log
- 2033  git checkout history
- 2034  gitlog
- 2035  git log
- 2036  history > history.txt
- 2037  ls
- 2038  cat history.txt 
- 2039  history
- 2040  clear
- 2041  git add history.txt 
- 2042  git commit -m "added history
- 2043  git commit -m "added historyw"
- 2044  git checkout milkshake-flavours 
- 2045  ls
- 2046  vim README.md 
- 2047  git commit -m "random readme changes"
- 2048  git add README.md 
- 2049  git commit -m "random readme changes"
- 2050  git checkout history 
- 2051  cat README.md 
- 2052  rm README.md
- 2053  echo "booya" > README.md
- 2054  rm README.md
- 2055  echo "booya" > README.md
- 2056  cat README.md 
- 2057  git add r
- 2058  git add README.md 
- 2059  git commit -m "rewrote readme"
- 2060  git checkout main 
- 2061  git merge milkshake-flavours 
- 2062  git log
- 2063  git merge history 
- 2064  cd -
- 2065  rm -fr 
- 2066  rm -fr git-basic-exercises/
- 2067  mkdir git-basic-exercises/
- 2068  cd git-basic-exercises/
- 2069  git init
- 2070  git status
- 2071  touch README.md
- 2072  git status
- 2073  git log
- 2074  git add README.md 
- 2075  git commit -m "initial commit"
- 2076  git log
- 2077  nano README.md 
- 2078  vim README.md 
- 2079  git add README.md 
- 2080  git commit -m "second commit"
- 2081  vim README.md 
- 2082  git add README.md 
- 2083  git commit -m 'third commit'
- 2084  git log
- 2085  git checkout b6fb4e8241b8549dbba96bbdc0f439a4d431e9ad
- 2086  cat README.md 
- 2087  git checkout main 
- 2088  git branch milkshake-flavours
- 2089  git branch
- 2090  git branch history
- 2091  git branch
- 2092  git checkout milkshake-flavours 
- 2093  nano milkshakes.md
- 2094  git add milkshakes.md 
- 2095  git commit -m "added initial flavours"
- 2096  git log
- 2097  git checkout main 
- 2098  ls
- 2099  git log
- 2100  git checkout history 
- 2101  git log
- 2102  ls
- 2103  history > history.txt
+ 1996  /bin/python3 /home/kay3rr0r404/Umuzi/Karabo-Mahlare-219-level-1-programming-katas-python/task5.py
+ 1997  pythn3
+ 1998  python3
+ 1999  /bin/python3 /home/kay3rr0r404/Umuzi/Karabo-Mahlare-219-level-1-programming-katas-python/task5.py
+ 2000  cd -
+ 2001  cd Karabo-Mahlare-219-level-1-programming-katas-python/
+ 2002  ls 
+ 2003  flake8 task5.py 
+ 2004  git add task5.py 
+ 2005  git commit -m 'refined triangle func'
+ 2006  git push origin task/5
+ 2007  git branch task/6 
+ 2008  git checkout  task/6 
+ 2009  /bin/python3 /home/kay3rr0r404/Umuzi/Karabo-Mahlare-219-level-1-programming-katas-python/task6.py
+ 2010  flake8 task6.py 
+ 2011  git add task6.py 
+ 2012  git commit -m /bin/python3 /home/kay3rr0r404/Umuzi/Karabo-Mahlare-219-level-1-programming-katas-python/task6.py
+ 2013  /bin/python3 /home/kay3rr0r404/Umuzi/Karabo-Mahlare-219-level-1-programming-katas-python/task6.py
+ 2014  git add task6.py 
+ 2015  git commit -m 'changed made according to pr suggestions'
+ 2016  git push origin task/6 
+ 2017  git checkout task/7 
+ 2018  /bin/python3 /home/kay3rr0r404/Umuzi/Karabo-Mahlare-219-level-1-programming-katas-python/task7.py
+ 2019  git add task7.py 
+ 2020  git commit -m 'suggestions resolved'
+ 2021  git push origin task/7 
+ 2022  git checkout task/4 
+ 2023  /bin/python3 /home/kay3rr0r404/Umuzi/Karabo-Mahlare-219-level-1-programming-katas-python/task4.py
+ 2024  git add task4.py 
+ 2025  git commit -m 'suggestions added'
+ 2026  git push origin task/4 
+ 2027  git checkout task/3 
+ 2028  /bin/python3 /home/kay3rr0r404/Umuzi/Karabo-Mahlare-219-level-1-programming-katas-python/task3.py
+ 2029  flake8 task3.py 
+ 2030  git add task3.py 
+ 2031  git commit -m 'updated as per PR'
+ 2032  git push origin task/3
+ 2033  git checkout task/2 
+ 2034  /bin/python3 /home/kay3rr0r404/Umuzi/Karabo-Mahlare-219-level-1-programming-katas-python/task2.py
+ 2035  flake8 task2.py 
+ 2036  git add task2.py 
+ 2037  git commit-m 'as per Pr'
+ 2038  git commit -m 'as per Pr'
+ 2039  git push origin task/2
+ 2040  git checkout task/1 
+ 2041  git add task1.py 
+ 2042  git commit -m 'changes made according to pr suggestions'
+ 2043  git push orign task/1
+ 2044  git push origin task/1
+ 2045  cd ../git-basic-exercises/
+ 2046  ls
+ 2047  git checkout milkshake-flavours 
+ 2048  git stash 
+ 2049  git checkout milkshake-flavours 
+ 2050  git add milkshakes.md 
+ 2051  git commit -m 'vanilla flavour added'
+ 2052  git checkout main 
+ 2053  git show
+ 2054  git pull README.md
+ 2055  git pull --autostash
+ 2056  git stash apply stash@74c30fb1848c62712420443cac2bdccf3dbc68a2
+ 2057  git revert 74c30fb1848c62712420443cac2bdccf3dbc68a2
+ 2058  git revert -m 74c30fb1848c62712420443cac2bdccf3dbc68a2
+ 2059  git log
+ 2060  git stash
+ 2061  git show
+ 2062  git revert 74c30fb1848c62712420443cac2bdccf3dbc68a2
+ 2063  git checkout milkshake-flavours 
+ 2064  git merge main 
+ 2065  git revert
+ 2066  git checkout main 
+ 2067  git checkout milkshake-flavours 
+ 2068  rm history.txt 
+ 2069  git checkout main 
+ 2070  git merge milkshake-flavours 
+ 2071  git merge history 
+ 2072  git stash apply
+ 2073  git branch
+ 2074  git merge history 
+ 2075  ls
+ 2076  git checkout history 
+ 2077  git stash 
+ 2078  git checkout history 
+ 2079  history > history.txt 
